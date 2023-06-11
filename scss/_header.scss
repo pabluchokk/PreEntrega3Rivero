@@ -1,0 +1,18 @@
+body {
+    background: #222831;
+}
+
+.navbar {
+    background-color: $colorPrincipal;
+    img {
+        width: 70px;
+        margin-top: 10px;
+    }
+}
+
+.container {
+    list-style: none;
+    font-size: 21px;
+    font-family: "Montserrat";
+    justify-content: space-evenly;
+}
