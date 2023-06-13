@@ -1,0 +1,16 @@
+.card-footer {
+    background-color: $colorPrincipal;
+    color: #000;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    h6 {
+        font-size: 19px;
+        font-family: "Montserrat";
+    }
+}
+
+.redes {
+    width: 38px;
+}

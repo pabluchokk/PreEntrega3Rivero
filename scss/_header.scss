@@ -10,9 +10,13 @@ body {
     }
 }
 
-.container {
+.container-fluid {
     list-style: none;
-    font-size: 21px;
+    font-size: 18px;
     font-family: "Montserrat";
     justify-content: space-evenly;
+    a {
+        text-decoration: none;
+        color: $colorBordes;
+    }
 }

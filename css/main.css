@@ -7,6 +7,14 @@
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-Light.ttf);
 }
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: "Vampire Wars";
+  src: url(../fonts/Vampire\ Wars.ttf);
+}
 body {
   background: #222831;
 }
@@ -19,11 +27,53 @@ body {
   margin-top: 10px;
 }
 
-.container {
+.container-fluid {
   list-style: none;
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Montserrat";
   justify-content: space-evenly;
+}
+.container-fluid a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+/* ESTILOS FOOTER */
+
+.card-footer {
+  background-color: #00ADB5;
+  color: #000;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.card-footer h6 {
+  font-size: 19px;
+  font-family: "Montserrat";
+}
+
+.redes {
+  width: 38px;
+}
+
+/* ESTILOS DEL MAIN */
+
+.fotoLP {
+  width: 460px;
+  margin-top: 30px;
+  border: 1px solid #EEEEEE;
+}
+
+.titulo {
+  color: #EEEEEE;
+  font-family: "Vampire Wars";
+  text-align: center;
+  font-size: 70px;
+}
+
+.container {
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
