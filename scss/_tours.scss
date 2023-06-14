@@ -1,0 +1,26 @@
+/* TOURS */
+.subtitulo {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 30px;
+    margin: 10px;
+}
+
+.card {
+    background: $colorFondo;
+    color: $colorBordes;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    img {
+        border: 1px solid $colorBordes;
+        width: 430px;
+    }
+}
+
+p {
+    color: #fff;
+    margin: 10px;
+    font-family: "Raleway";
+
+}

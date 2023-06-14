@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 * {
   padding: 0;
@@ -96,6 +97,7 @@ body {
   font-family: "Raleway";
 }
 
+/* DISCOGRAFÍA */
 .encabezado {
   color: #EEEEEE;
   font-size: 50px;
@@ -103,7 +105,7 @@ body {
   margin: 20px;
 }
 
-.container {
+.container2 {
   background-color: #000;
   gap: 10px;
   margin: 20px 0;
@@ -111,6 +113,33 @@ body {
   border: 2px solid #00ADB5;
   border-radius: 20px;
   text-align: center;
+  font-family: "Raleway";
+  color: #fff;
+}
+
+/* TOURS */
+.subtitulo {
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 30px;
+  margin: 10px;
+}
+
+.card {
+  background: #222831;
+  color: #EEEEEE;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+.card img {
+  border: 1px solid #EEEEEE;
+  width: 430px;
+}
+
+p {
+  color: #fff;
+  margin: 10px;
   font-family: "Raleway";
 }
 
