@@ -1,0 +1,20 @@
+/* INTEGRANTES */
+
+.container-lg {
+    color: $colorBordes;
+    margin: 15px;
+    img {
+        width: 420px;
+        margin-top: 18px;
+        border: 4px solid $colorPrincipal;
+    }
+}
+
+.integrante {
+    
+    h4 {
+        font-size: 40px;
+        text-align: center;
+        font-family: "Raleway";
+    }
+}
