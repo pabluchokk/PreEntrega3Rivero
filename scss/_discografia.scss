@@ -8,8 +8,10 @@
 .container {
     background-color: #000;
     gap: 10px;
-    margin-top: 10px;
+    margin: 20px 0;
     padding: 10px;
     border: 2px solid $colorPrincipal;
     border-radius: 20px;
+    text-align: center;
+    font-family: "Raleway";
 }
