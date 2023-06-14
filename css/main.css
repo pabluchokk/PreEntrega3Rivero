@@ -143,4 +143,29 @@ p {
   font-family: "Raleway";
 }
 
+/* CONTACTO */
+.form {
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 40px;
+  margin: 10px;
+}
+.form .btn {
+  background-color: #00ADB5;
+  border: #EEEEEE;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.input-group {
+  margin: 10px;
+}
+.input-group i {
+  margin: 15px;
+  color: #00ADB5;
+}
+.input-group .fa-key {
+  margin-left: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

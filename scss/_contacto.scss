@@ -1,0 +1,26 @@
+/* CONTACTO */
+
+.form {
+    color: #fff;
+    font-family: $fuente;
+    font-size: 40px;
+    margin: 10px;
+    .btn {
+        background-color: $colorPrincipal;
+        border: $colorBordes;
+        color: #fff;
+        margin-left: 100px;
+    }
+}
+
+.input-group {
+    margin: 10px;
+    i {
+        margin: 15px;
+        color: $colorPrincipal;
+    }
+    .fa-key {
+        margin-left: 20px;
+    }
+}
+
