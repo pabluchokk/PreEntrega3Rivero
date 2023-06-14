@@ -16,9 +16,43 @@ body {
     list-style: none;
     font-size: 18px;
     font-family: "Montserrat";
+    display: flex;
     justify-content: space-evenly;
     a {
         text-decoration: none;
         color: $colorBordes;
+    }
+}
+
+/* DISEÑO DESKTOP: HEADER */
+
+@media (min-width: 1024px) {
+    .navbar { 
+        display: flex;
+        justify-content: space-evenly;
+            img {
+                width: 100px;
+                margin-left: 0;
+            }
+        .container-fluid {
+            display: flex;
+            justify-content: space-around;
+        }  .container-fluid li {
+                font-size: 35px;
+        }  li:hover {
+            transition: all .3s;
+            font-size: 38px;
+            border-bottom: 3px solid #222831;
+            animation: spin .3s alternate linear;
+            transform: rotate(-3deg);
+        }
+    @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
     }
 }

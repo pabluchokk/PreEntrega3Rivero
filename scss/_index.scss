@@ -17,3 +17,30 @@
     color: #fff;
     font-size: 20px;
 }
+
+/* DISEÑO DESKTOP: INDEX */
+
+@media (min-width: 1024px) {
+    .fotoLP {
+        display: none;
+
+    }
+    .titulo {
+        font-size: 120px;
+        background-image: url(../images/linkin-park.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container b {
+        font-size: 40px;
+        border: 2px solid $colorPrincipal;
+        border-radius: 25px;
+        padding: 10px;
+    }
+}
