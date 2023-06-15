@@ -379,6 +379,96 @@ p {
   font-family: "Raleway";
 }
 
+/* DISEÑO DESKTOP DE TOURS */
+@media (min-width: 1024px) {
+  .subtitulo {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+  }
+  .card {
+    display: none;
+  }
+  .card h3 {
+    font-size: 40px;
+    font-family: "Montserrat";
+  }
+  .tour-1 {
+    display: flex;
+    background-color: #393E46;
+    color: #EEEEEE;
+    margin: 20px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  img {
+    border: 2px solid #00ADB5;
+    object-fit: cover;
+    align-self: center;
+    width: 700px;
+    display: flex;
+  }
+  .tour-2 {
+    display: flex;
+    background-color: #393E46;
+    color: #EEEEEE;
+    margin: 20px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  img {
+    border: 2px solid #00ADB5;
+    object-fit: cover;
+    align-self: center;
+    width: 700px;
+    display: flex;
+  }
+  .tour-3 {
+    display: flex;
+    background-color: #393E46;
+    color: #EEEEEE;
+    margin: 20px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  img {
+    border: 2px solid #00ADB5;
+    object-fit: cover;
+    align-self: center;
+    width: 700px;
+    display: flex;
+  }
+  .tour-4 {
+    display: flex;
+    background-color: #393E46;
+    color: #EEEEEE;
+    margin: 20px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  img {
+    border: 2px solid #00ADB5;
+    object-fit: cover;
+    align-self: center;
+    width: 700px;
+    display: flex;
+  }
+  .tour-5 {
+    display: flex;
+    background-color: #393E46;
+    color: #EEEEEE;
+    margin: 20px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  img {
+    border: 2px solid #00ADB5;
+    object-fit: cover;
+    align-self: center;
+    width: 700px;
+    display: flex;
+  }
+}
 /* CONTACTO */
 .form {
   color: #fff;

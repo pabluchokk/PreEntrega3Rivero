@@ -24,3 +24,38 @@ p {
     font-family: "Raleway";
 
 }
+
+/* DISEÑO DESKTOP DE TOURS */
+
+@media (min-width: 1024px) {
+    .subtitulo {
+        text-align: center;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .card {
+        display: none;
+        h3 {
+            font-size: 40px;
+            font-family: "Montserrat";
+        }
+    }
+
+    @for $i from 1 through 5 {
+        .tour-#{$i}{
+            display: flex;
+            background-color: $colorFondo2;
+            color: $colorBordes;
+            margin: 20px;
+            flex-direction: column;
+            padding: 30px;
+        } img {
+            border: 2px solid $colorPrincipal;
+            object-fit: cover;
+            align-self: center;
+            width: 700px;
+            display: flex;
+        }
+    }
+}   
