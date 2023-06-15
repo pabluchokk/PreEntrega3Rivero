@@ -1,5 +1,11 @@
 /* INTEGRANTES */
 
+.integranteTitulo {
+    color: #fff;
+    text-align: center;
+    font-family: "Raleway";
+}
+
 .container-lg {
     color: $colorBordes;
     margin: 15px;
@@ -11,10 +17,159 @@
 }
 
 .integrante {
-    
     h4 {
         font-size: 40px;
         text-align: center;
         font-family: "Raleway";
     }
 }
+
+/* INTEGRANTES: DESKTOP */
+
+@media (min-width: 1024px) {
+        .container-lg {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: 30px;
+        } h4, .bio {
+            display: none;
+        } 
+        .container-lg img {
+            width: 280px;
+            height: 320px;
+            object-fit: cover;
+        }
+        .integrante {
+            margin: 40px;
+            width: 400px;
+            transition: ease-in-out 1s;
+        } 
+        .chester:active {
+            display: flex;
+            transition-delay: .1s;
+            translate: 360px 80px;
+            width: 700px;
+            border: 2px solid $colorBordes;
+            background-color: $colorFondo2;
+            h4, .bio {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                width: 400px;
+            }
+            img {
+                align-self: center;
+                transition: height 1.5s;
+                transition-delay: .5s;
+                height: 400px;
+            }
+        }
+        .mike:active {
+            background-color: $colorFondo2;
+            transition-delay: .1s;
+            translate:-150px 150px;
+            border: 2px solid $colorBordes;
+            width: 700px;
+            display: flex;
+            h4, .bio {
+                display:flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                width: 400px;
+            }
+            img {
+                justify-content: center;
+                transition: height 1.5s;
+                transition-delay: .5s;
+                height: 400px;
+            }
+        }
+        .brad:active {
+            background-color: $colorFondo2;
+            transition-delay: .1s;
+            display: flex;
+            translate: 300px;
+            width: 700px;
+            border: 2px solid $colorBordes;
+            h4, .bio {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                width: 400px;
+            }
+            img {
+                justify-content: center;
+                transition: height 1.5s;
+                transition-delay: .5s;
+                height: 400px;
+            }
+        }
+        .dave:active {
+            background-color: $colorFondo2;
+            transition-delay: .1s;
+            display: flex;
+            translate: -180px;
+            width: 700px;
+            border: 2px solid $colorBordes;
+            h4, .bio {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                width: 400px;
+            }
+            img {
+                justify-content: center;
+                transition: height 1.5s;
+                transition-delay: .5s;
+                height: 400px;
+            }
+        }
+        .joe:active {
+            background-color: $colorFondo2;
+            transition-delay: .1s;
+            display: flex;
+            translate: 280px -200px;
+            width: 700px;
+            border: 2px solid $colorBordes;
+            h4, .bio {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                width: 400px;
+            }
+            img {
+                justify-content: center;
+                transition: height 1.5s;
+                transition-delay: .5s;
+                height: 400px;
+            }
+        }
+        .rob:active {
+            background-color: $colorFondo2;
+            transition-delay: .1s;
+            display: flex;
+            translate: -180px -200px;
+            width: 700px;
+            border: 2px solid $colorBordes;
+            h4, .bio {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                width: 400px;
+            }
+            img {
+                justify-content: center;
+                transition: height 1.5s;
+                transition-delay: .5s;
+                height: 400px;
+            }
+        }
+    }
