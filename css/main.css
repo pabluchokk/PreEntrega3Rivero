@@ -182,6 +182,7 @@ body {
     width: 400px;
     transition: ease-in-out 1s;
   }
+  /* ANIMACION CHESTER */
   .chester:active {
     display: flex;
     transition-delay: 0.1s;
@@ -203,6 +204,7 @@ body {
     transition-delay: 0.5s;
     height: 400px;
   }
+  /* ANIMACION MIKE */
   .mike:active {
     background-color: #393E46;
     transition-delay: 0.1s;
@@ -224,6 +226,7 @@ body {
     transition-delay: 0.5s;
     height: 400px;
   }
+  /* ANIMACION BRAD */
   .brad:active {
     background-color: #393E46;
     transition-delay: 0.1s;
@@ -245,6 +248,7 @@ body {
     transition-delay: 0.5s;
     height: 400px;
   }
+  /* ANIMACION DAVE */
   .dave:active {
     background-color: #393E46;
     transition-delay: 0.1s;
@@ -266,6 +270,7 @@ body {
     transition-delay: 0.5s;
     height: 400px;
   }
+  /* ANIMACION JOE */
   .joe:active {
     background-color: #393E46;
     transition-delay: 0.1s;
@@ -287,6 +292,7 @@ body {
     transition-delay: 0.5s;
     height: 400px;
   }
+  /* ANIMACION ROB */
   .rob:active {
     background-color: #393E46;
     transition-delay: 0.1s;
@@ -329,6 +335,24 @@ body {
   color: #fff;
 }
 
+/* DISEÑO DESKTOP PARA LA DISCOGRAFÍA */
+@media (min-width: 1024px) {
+  .encabezado {
+    text-align: center;
+  }
+  .container2 {
+    flex-direction: column;
+    margin: 40px;
+    width: 400px;
+  }
+  .albums {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+  }
+}
 /* TOURS */
 .subtitulo {
   color: #fff;

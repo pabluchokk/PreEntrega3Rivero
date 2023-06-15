@@ -46,6 +46,7 @@
             width: 400px;
             transition: ease-in-out 1s;
         } 
+        /* ANIMACION CHESTER */
         .chester:active {
             display: flex;
             transition-delay: .1s;
@@ -67,6 +68,7 @@
                 height: 400px;
             }
         }
+        /* ANIMACION MIKE */
         .mike:active {
             background-color: $colorFondo2;
             transition-delay: .1s;
@@ -88,6 +90,7 @@
                 height: 400px;
             }
         }
+        /* ANIMACION BRAD */
         .brad:active {
             background-color: $colorFondo2;
             transition-delay: .1s;
@@ -109,6 +112,7 @@
                 height: 400px;
             }
         }
+        /* ANIMACION DAVE */
         .dave:active {
             background-color: $colorFondo2;
             transition-delay: .1s;
@@ -130,6 +134,7 @@
                 height: 400px;
             }
         }
+        /* ANIMACION JOE */
         .joe:active {
             background-color: $colorFondo2;
             transition-delay: .1s;
@@ -151,6 +156,7 @@
                 height: 400px;
             }
         }
+        /* ANIMACION ROB */
         .rob:active {
             background-color: $colorFondo2;
             transition-delay: .1s;

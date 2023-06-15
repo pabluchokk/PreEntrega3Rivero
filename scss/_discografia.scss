@@ -18,3 +18,23 @@
     font-family: "Raleway";
     color: #fff;
 }
+
+/* DISEÑO DESKTOP PARA LA DISCOGRAFÍA */
+
+@media (min-width: 1024px) {
+    .encabezado {
+        text-align: center;
+    }
+    .container2 {
+        flex-direction: column;
+        margin: 40px;
+        width: 400px;
+    }
+    .albums {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-between;
+    }
+}
