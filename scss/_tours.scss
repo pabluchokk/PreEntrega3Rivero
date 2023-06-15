@@ -50,6 +50,7 @@ p {
             margin: 20px;
             flex-direction: column;
             padding: 30px;
+            border: 2px solid $colorPrincipal;
         } img {
             border: 2px solid $colorPrincipal;
             object-fit: cover;

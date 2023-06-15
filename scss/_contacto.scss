@@ -24,3 +24,29 @@
     }
 }
 
+/* DISEÑO DESKTOP DE CONTACTO */
+
+@media (min-width: 1024px){
+
+.form {
+    display: flex;
+    height: 100%;
+    font-size: 50px;
+    min-height: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input-group {
+    width: 800px;
+    height: 50px;
+    margin: 50px;
+    flex: 1;
+}
+
+.btn {
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+}
+}
