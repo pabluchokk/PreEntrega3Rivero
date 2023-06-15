@@ -99,6 +99,7 @@ html, body {
   width: 38px;
 }
 
+/* ESTILO DEL FOOTER EN DESKTOP */
 @media (min-width: 1024px) {
   .card-footer {
     bottom: 100%;
